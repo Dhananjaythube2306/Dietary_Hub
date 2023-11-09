@@ -1,0 +1,141 @@
+body {
+    background-color: #e6e9ec !important;
+  }
+  
+  .wrapper {
+    margin-top: -10px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #434040;
+    
+  }
+  .lo p{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  .anii img{
+    width: 100%;
+    height: 100%;
+border-radius: 20px 100px; 
+   
+}
+
+.Text{
+    text-align: center;
+    margin-left: 200px;
+    color:#434040;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.multiText{
+    color: rgb(77, 46, 227);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.row{
+    padding-top: 20px;
+}
+  
+  nav {
+    display: flex;
+    width: 90%;
+  }
+  
+  ul li a {
+    margin-left: 1.5em;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  
+  a.logo {
+    margin-right: auto;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  a {
+    text-decoration: none !important; 
+    color: #ffffff;
+    position: relative;
+    font-size: 1.25em;
+  }
+  
+  a::after {
+    content: "";
+    top: 80%;
+    border-bottom: 2px solid #fbff01d9;
+    transition: all 0.35s;
+    position: absolute;
+  }
+  
+  a:hover::after {
+    transition: all 0.35s;
+  }
+  
+  a::after {
+    right: 50%;
+    left: 50%;
+  }
+  
+  a:hover::after {
+    right: 0;
+    left: 0;
+  }
+  
+  @media (max-width: 1024px) {
+    .wrapper {
+      height: auto;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    a.logo {
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+      margin-right: 0px;
+    }
+  
+    ul {
+      width: 100%;
+      margin-bottom: 1em;
+      justify-content: space-between;
+    }
+  
+    ul li a {
+      margin-left: 0px;
+    }
+  }
+  @media (max-width: 768px) {
+    a.logo {
+      margin: 1.5em;
+    }
+  
+    ul {
+      flex-direction: column;
+    }
+  
+    ul li {
+      margin: 0.3em;
+      text-align: center;
+    }
+  
+    ul li a {
+      margin-left: 0px;
+    }
+  }
